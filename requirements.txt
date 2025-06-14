@@ -1,0 +1,13 @@
+tabulate
+faiss-cpu
+chromadb
+langchain
+langchain-community
+langchain-core
+langchain-ollama
+langchain-groq
+langchain-experimental
+streamlit
+pypdf
+pandas
+python-dotenv
