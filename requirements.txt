@@ -8,6 +8,7 @@ langchain-ollama
 langchain-groq
 langchain-huggingface
 langchain-experimental
+sentence-transformers
 streamlit
 pypdf
 pandas
