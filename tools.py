@@ -10,6 +10,8 @@ import pandas as pd
 import tempfile
 import os
 
+os.environ["GROQ_API_KEY"]
+
 llm = ChatGroq(model="llama3-8b-8192", temperature=0.5, verbose=True)
 # llm = ChatOllama(model="llama3.1", temperature=0, verbose=True)
 
