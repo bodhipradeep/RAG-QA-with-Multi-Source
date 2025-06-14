@@ -2,8 +2,9 @@ import os
 import streamlit as st
 from langchain.agents import create_tool_calling_agent, AgentExecutor
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder, SystemMessagePromptTemplate, HumanMessagePromptTemplate, PromptTemplate
-from langchain_core.tools import Tool
-from tools import get_tools, llm
+from langchain_ollama import ChatOllama
+from langchain_groq import ChatGroq
+from tools import get_tools
 import os
 
 # Sidebar for file uploads (CSV, Text, PDF)
@@ -22,6 +23,9 @@ if not api_key:
     st.warning("Please provide a valid GROQ API Key to continue.")
     st.stop()
 os.environ["GROQ_API_KEY"] = api_key
+
+llm = ChatGroq(model="llama3-8b-8192", temperature=0.5, verbose=True)
+# llm = ChatOllama(model="llama3.1", temperature=0, verbose=True)
 
 prompt = ChatPromptTemplate.from_messages([
     SystemMessagePromptTemplate.from_template("You are a helpful assistant. Always use tools to answer the user's question."),

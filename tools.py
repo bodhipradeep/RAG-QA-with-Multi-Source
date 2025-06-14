@@ -2,18 +2,11 @@ from langchain_community.document_loaders import TextLoader, PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
-from langchain_ollama import ChatOllama
-from langchain_groq import ChatGroq
 from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe_agent
 from langchain_core.tools import Tool
 import pandas as pd
 import tempfile
 import os
-
-os.environ["GROQ_API_KEY"]
-
-llm = ChatGroq(model="llama3-8b-8192", temperature=0.5, verbose=True)
-# llm = ChatOllama(model="llama3.1", temperature=0, verbose=True)
 
 # Sets up embedding model (HuggingFace)
 embed_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
