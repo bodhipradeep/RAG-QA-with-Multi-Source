@@ -68,7 +68,7 @@ streamlit run main.py
 ```
 Access the app at: http://<your-ec2-public-ip>:8501
 - For detailed EC2 setup and port configuration:
-[View Full AWS Deployment Guide](\AWS_DEPLOYMENT.md)
+[View Full AWS Deployment Guide](AWS_Deployment.md)
 
 ---
 
@@ -93,7 +93,7 @@ Access the app at: http://<your-ec2-public-ip>:8501
 
 ## 📄 License
 
-This project is licensed under the [MIT License](\LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
 --- 
 
