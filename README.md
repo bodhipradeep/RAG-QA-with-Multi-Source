@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ```bash
 streamlit run main.py
 ```
-
+--- 
 # AWS EC2 Deployment (already implemented)
 
 ```bash
@@ -52,6 +52,8 @@ Access via EC2 public IP and port 8501. (http://16.170.215.0:8501)
 - A Jupyter Notebook (text.ipynb) demonstrates ingestion and queries.
 - Upload files via the Streamlit UI and observe instant answers.
 
+---
+
 ### Project Structure
 ```bash
 ├─ app.py             # Streamlit application
@@ -61,6 +63,7 @@ Access via EC2 public IP and port 8501. (http://16.170.215.0:8501)
 ├─ text.ipynb          # Sample ingestion & testing notebook
 └─ source_data.zip/    # Example PDF & TXT files
 ```
+---
 
 ### Usage Examples (Streamlit UI)
 - Upload one or more documents (PDF/TXT).
@@ -68,7 +71,16 @@ Access via EC2 public IP and port 8501. (http://16.170.215.0:8501)
 - Expect conversational answers based on content.
 - Monitor console logs for processing feedback.
 
+---
 
-## 📜 License & Acknowledgements
-- MIT License
-- Based on the RAG architecture and adapted for multi-source document ingestion.
+## 📄 License
+
+This repository is licensed under the MIT License. See the LICENSE file for details.
+
+--- 
+
+## 🔗 **Links & Contact**
+
+- **GitHub Profile:** [Github](https://github.com/pradeep-kumar8/)
+- **LinkedIn:** [Likedin](https://linkedin.com/in/pradeep-kumar8)
+- **Email:** [gmail](mailto:pradeep.kmr.pro@gmail.com)
