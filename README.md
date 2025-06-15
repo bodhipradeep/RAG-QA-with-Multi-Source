@@ -73,8 +73,8 @@ Access the app at: http://<your-ec2-public-ip>:8501
 ---
 
 ## 📂 Sample Documents & Test Workflow
-- Sample PDF/TXT files are located in the repo under sample_data/.
-- A Jupyter Notebook (text.ipynb) demonstrates ingestion and queries.
+- Sample PDF/TXT files are located in the repo under [source-data](source-data.zip).
+- A Jupyter Notebook [test.ipynb](test.ipynb) demonstrates ingestion and queries.
 - Upload files via the Streamlit UI and observe instant answers.
 
 ---
