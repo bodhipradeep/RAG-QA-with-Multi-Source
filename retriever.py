@@ -39,7 +39,8 @@ def retriever(text, pdf, top_k=5):
         
         #Clean up the buffer file
         try:
-            os.unlink(document)
+            os.unlink(temp_txt_path)
+            os.unlink(temp_path)
         except:
             pass
 
