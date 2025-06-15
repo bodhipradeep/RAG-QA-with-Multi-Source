@@ -56,7 +56,7 @@ streamlit run main.py
 - Ensure you set your `GROQ_API_KEY` in the Streamlit input box when prompted.
 
 --- 
-# AWS EC2 Deployment
+## AWS EC2 Deployment
 You can deploy this app easily on AWS EC2 using the following commands:
 ```bash
 sudo yum update -y
