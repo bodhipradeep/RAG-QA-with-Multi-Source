@@ -10,7 +10,7 @@ This repository implements a **Retrieval‑Augmented Generation (RAG)** chatbot 
 
 1. **Document ingestion** – Users can upload PDF, TXT.  
 2. **Preprocessing** – Files are parsed, split into chunks, and embedded using HuggingFace models.  
-3. **Vector store retrieval** – Stores embeddings in FAISS for semantic search.  
+3. **Vector store retrieval** – Stores embeddings in FAISS for semantic search. 
 4. **RAG pipeline** – Top chunks retrieved and fed into an LLM (ChatGroq) via a prompt template.  
 5. **Streamlit UI** – Simple, interactive web-based interface.  
 6. **Deployment-ready** – Containerized using Docker. Tested on AWS EC2 with complete deploy instructions.
