@@ -14,6 +14,13 @@ This repository implements a **Retrieval‑Augmented Generation (RAG)** chatbot 
 6. **Deployment-ready** – Containerized using Docker. Tested on AWS EC2 with complete deploy instructions.
 
 ---
+## Sample Image of output
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5a229da4-8dda-465f-ae3a-5e35e8835e2" alt="Deploying" width="45%" /> 
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/55fc3ee6-70af-4276-91bb-94214706be77" alt="Running" width="45%" />
+</p>
+---
 
 ## 🚀 Quick Start
 
