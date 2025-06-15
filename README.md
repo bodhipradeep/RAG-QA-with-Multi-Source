@@ -50,7 +50,8 @@ pip install -r requirements.txt
 streamlit run main.py
 ```
 
-Access via EC2 public IP and port 8501. (http://16.170.215.0:8501)
+Access via EC2 public IP and port 8501.
+[AWS Complete Guide](AWS_DEPLOYMENT.md)
 
 ---
 
