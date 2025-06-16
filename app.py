@@ -64,5 +64,5 @@ if user_input := st.chat_input("Ask any Query"):
                 try:
                     st.markdown(result["answer"])
                 except :
-                    st.markdown("Please Upload file first")
+                    st.markdown("Please Upload files *Text and PDF* first")
 
