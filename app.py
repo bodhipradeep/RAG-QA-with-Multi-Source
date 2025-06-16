@@ -61,8 +61,8 @@ if user_input := st.chat_input("Ask any Query"):
             with st.chat_message("user", avatar="🧔‍♂️"):
                 st.markdown(user_input)
             with st.chat_message("assistant", avatar="🤖"):
-                if isinstance(result, dict) and "answer" in result:
+                if result["answer"]:
                     st.markdown(result["answer"])
                 else:
-                    st.markdown(str(result))
+                    st.markdown("Please upload the file Text and PDF first!")
 
