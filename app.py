@@ -63,6 +63,6 @@ if user_input := st.chat_input("Ask any Query"):
             with st.chat_message("assistant", avatar="🤖"):
                 try:
                     st.markdown(result["answer"])
-                except Exception as e:
-                    st.markdown(f"An error occurred: {str(e)})
+                except :
+                    st.markdown("Please Upload file first)
 
