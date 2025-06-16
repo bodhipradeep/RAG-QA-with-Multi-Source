@@ -61,5 +61,8 @@ if user_input := st.chat_input("Ask any Query"):
             with st.chat_message("user", avatar="🧔‍♂️"):
                 st.markdown(user_input)
             with st.chat_message("assistant", avatar="🤖"):
-                st.markdown(result["answer"])
+                if isinstance(result, dict) and "answer" in result:
+                    st.markdown(result["answer"])
+                else:
+                    st.markdown(str(result))
 
